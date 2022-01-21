@@ -1,0 +1,261 @@
+.xtx_body {
+    padding: 30px 0 85px;
+    background-color: #f6f6f6;
+    margin-bottom: 85px;
+}
+
+.xtx_body .wrapper {
+    display: flex;
+}
+
+/* 侧边栏 */
+.xtx_body .aside {
+    width: 227px;
+    min-height: 500px;
+    margin-right: 18px;
+    background-color: #fff;
+}
+
+/* 主体内容 */
+.xtx_body .main {
+    /* width: ; */
+    flex: 1;
+    min-height: 500px;
+    /* background-color: skyblue; */
+}
+
+/* 账户概览 */
+.overview {
+    display: flex;
+    height: 132px;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.overview div{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.overview div:first-child{
+    border-right: 1px solid #f4f4f4;
+}
+.overview div a img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.overview div span{
+    font-size: 25px;
+    color: #e05e30;
+}
+.overview div p{
+    font-size: 16px;
+}
+.overview div a:last-child img{
+    width: 18px;
+}
+/* 订单区域 */
+.pannel{
+    padding: 28px 20px;
+    background-color: #fff;
+}
+.orders .pannel_title{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.orders .pannel_title h4{
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.pannel .pannel_title a{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #999;
+}
+.orders .content li{
+    height: 137px;
+    margin-top: -1px;
+    border: 1px solid #f4f4f4;
+    
+}
+.orders .content ul li:first-child {
+    margin-bottom: 20px;
+}
+.orders li{
+    display: flex;
+    height: 137px;
+    margin-top: -1px;
+    border: 1px solid #f4f4f4;
+    margin-bottom: 20px;
+}
+.orders li .goods{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 120px;
+    
+}
+
+.orders li .status{
+    width: 120px;
+    display: flex;
+    color: #e05e30;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.orders li .status p
+.orders li .pay{
+    width: 200px;
+    
+}
+.orders li .pay p:first-child{
+    color: #9a2e1f;
+}
+.orders li .action{
+    width: 180px;
+}
+.orders .content .pic img{
+    width: 107px;
+    margin: 17px 5px 14px 12px;
+}
+.orders .goods .txt{
+    flex: 1;
+    width: 0;
+    margin-right: 100px;
+}
+.orders .goods .txt h5{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.orders .common{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.orders .common a:first-child{
+    width: 100px;
+    height: 30px;
+    background-color: #5eb69c;
+    color: #f4f4f4;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.aside{
+    width: 227px;
+    height: 1348px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.aside .image{
+    display: flex;
+    width: 227px;
+    height: 231px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.aside .image p:last-child{
+    width: 93px;
+	height: 26px;
+    background-color:#e16034;
+    padding-left: 23px;
+    line-height: 26px;
+    position: relative;
+    border-radius: 20px;
+    color: #f4f4f4;
+}
+.aside .image p:nth-child(2){
+    font-weight: 700;
+    font-size: 17px;
+}
+.aside .image p:last-child::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    background: url(../images/vip_gold.png);
+    background-size: 16px 16px;
+    left: 9px;
+    top: 5px;
+}
+
+.aside .image img{
+    width: 85px;
+    height: 85px;
+}
+.aside .txt{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.aside .txt .account{
+    height: 455px;
+}
+.aside .txt .manage{
+    height: 275px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.aside .txt .collection{
+    height: 197px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.aside .txt .Help{
+    height: 187px;
+}
+.xtx-h3{
+    margin: 33px 106px 32px 47px;
+}
+
+.aside .txt .account ul{
+    margin: 0px 106px 0px 52px;
+}
+.aside .txt .account ul li{
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.aside .txt .account ul li:hover{
+    color: #5eb69c;
+    list-style-type: disc;
+}  
+.aside .txt .account{
+    border-bottom: 1px solid #f4f4f4;
+}
+.xtx-ul{
+    margin: 26px 103px 31px 50px;
+}
+.aside .txt .manage li,
+.collection li,
+.Help li{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.main .collection ul{
+    display: flex;
+    height: 317px;
+    justify-content: space-between;
+}
+.main .collection ul li{
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+}
